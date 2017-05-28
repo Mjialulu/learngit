@@ -1,0 +1,100 @@
+#banner .out{
+	display: block;
+}
+#banner>ul{
+	position: relative;
+	list-style-type: none;
+	width: 6.4rem;
+	height: 3.2rem;
+}
+#banner>ul>li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	display: none;
+	width: 6.4rem;
+	height: 3.2rem;
+	background-color: #000000;
+}
+#banner>ul>li>a{
+	width: 6.4rem;
+	height: 3.2rem;
+}
+#banner>ul>li>a>img{
+	width: 6.4rem;
+	height: 3.2rem;
+}
+#mark{
+	width: 3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	position: absolute;
+	z-index: 10;
+	top:-0.4rem;
+	left: 2.5rem;
+}
+#mark>span{
+	display: block;
+	position: relative;
+	float: left;
+	border-radius: 0.1rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	line-height: 0.3rem;
+	margin-left: 0.3rem;
+	background-color: #000;
+	
+}
+#mark .bg{
+	background-color: #fff;
+}
+
+ nav div span{
+	font-size: 0.2rem;
+	display:inline-block; 
+	vertical-align:middle;
+	margin-top: -0.8rem;
+}
+ nav div p img{
+	width:0.6rem;
+	height: 0.7rem;
+}
+ nav div ul li img{
+	width:1.6rem;
+	height: 1.6rem;
+}
+nav div{
+	border-bottom:1px solid #666 ;
+}
+nav div p{
+	margin-left: 0.2rem;
+	position: relative;
+}
+nav div ul{
+	display:none;
+}
+nav div ul li{
+	border-bottom: 1px solid #666;
+}
+.tran{
+	position: absolute;
+	right: 0.5rem;
+	top: 1rem;
+	transform: rotate(90deg);
+	font-size: 0.5rem;
+	color:#8a8e8e ;
+	/*margin-left: 2.0rem;
+	margin-top: 0.05rem;*/
+}
+/*p.pro_p:hover span.tran{
+	transform: rotate(270deg);
+	transition: all 0.5s;
+}*/
+.find{
+	width: 6.4rem;
+	height: 1.1rem;
+	font-size: 0.3rem;
+	line-height: 1.1rem;
+	text-align: center;
+}

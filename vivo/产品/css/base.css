@@ -1,0 +1,22 @@
+#banner{
+	width: 6.4rem;
+	height: 3.2rem;
+	position: relative;
+	clear: both;
+}
+#m-header{
+	width: 6.4rem;
+	height: 1.2rem;
+	position: relative;
+}
+aside{
+	width: 6.4rem;
+	height: auto;
+	position: relative;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
